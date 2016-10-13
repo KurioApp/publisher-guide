@@ -1,7 +1,9 @@
 ---
-Version: 1.0.0
-Last Modified: 2016-08-23
+Version: 1.0.1
+Last Modified: 2016-10-13
 ---
+
+<img src="https://s3-ap-southeast-1.amazonaws.com/kurio-files/kurio-logo.png" alt="Kurio Logo" height="50" />
 
 # Kurio Publisher Guide
 
