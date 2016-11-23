@@ -133,10 +133,18 @@ On JSON the date time values are shown as Unix timestamp, which is a plain integ
 ### URL
 As stated above, all article URLs must be the complete and final URL, rather than shortened one. You may add UTM tracker in the query string to track the traffic that comes from Kurio.
 
+Please note that when using RSS format, query string for the tracker must be separeted by `&amp;` instead of regular `&` to make sure the RSS still a valid XML.
+
 Example of the valid URL with tracker installed:
 
 ```
 http://example.com/article/sample.html?utm_campaign=content_distribution&utm_medium=Kurio&utm_source=rss_feed
+```
+
+Example of the valid URL with tracker installed in RSS feed:
+
+```
+http://example.com/article/sample.html?utm_campaign=content_distribution&amp;utm_medium=Kurio&amp;utm_source=rss_feed
 ```
 
 ## Authorization
